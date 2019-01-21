@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="_common">
+      <UniqueIdentifier>{59ce5593-2d97-46e1-ab3f-dfee17b2b0b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_common\FSM">
+      <UniqueIdentifier>{9857e3f6-b1e3-48be-aa0a-530d5cf2931c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_common\misc">
+      <UniqueIdentifier>{931d3dd1-7c92-4f42-a8da-2151537e0798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_common\Time">
+      <UniqueIdentifier>{6aec5f01-1da8-49d9-a01e-c911a82cce1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_common\Messaging">
+      <UniqueIdentifier>{62e44011-4d10-4930-9d0c-724f000a954d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__minorlife_Homework">
+      <UniqueIdentifier>{ae4f5bbb-e35d-4b95-9ba2-8806232a5c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__minorlife_Homework\Header Files">
+      <UniqueIdentifier>{dddbd091-3b8b-4b76-ab91-49e5342ef136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__minorlife_Homework\Source Files">
+      <UniqueIdentifier>{a15884f3-91df-4de4-99b2-b50e4ccba81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__minorlife_Homework\__SDL">
+      <UniqueIdentifier>{66b6e104-4f57-42b6-b2ad-37c5a3d0377b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__minorlife_Homework\__pathfind">
+      <UniqueIdentifier>{96dff5dd-4fcc-4c6e-8807-eea83ed6503d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EntityNames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Locations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Messaging\Telegram.h">
+      <Filter>_common\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="common\FSM\State.h">
+      <Filter>_common\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="common\FSM\StateMachine.h">
+      <Filter>_common\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\ConsoleUtils.h">
+      <Filter>_common\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\utils.h">
+      <Filter>_common\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Time\CrudeTimer.h">
+      <Filter>_common\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLwrapper.h">
+      <Filter>__minorlife_Homework\__SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_BaseGameEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_EntityManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_Miner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_MinersWife.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_MinerOwnedStates.h">
+      <Filter>__minorlife_Homework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_MinersWifeOwnedStates.h">
+      <Filter>__minorlife_Homework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_Definitions.h">
+      <Filter>__minorlife_Homework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_SetCommand.h">
+      <Filter>__minorlife_Homework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_Command.h">
+      <Filter>__minorlife_Homework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_BFS.h">
+      <Filter>__minorlife_Homework\__pathfind</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_TemplateStateGoTo.h">
+      <Filter>__minorlife_Homework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_RobOwnedStates.h">
+      <Filter>__minorlife_Homework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_Rob.h">
+      <Filter>__minorlife_Homework\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Time\CrudeTimer.cpp">
+      <Filter>_common\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_MinersWife.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_BaseGameEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_EntityManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_Miner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_MinerOwnedStates.cpp">
+      <Filter>__minorlife_Homework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_MinersWifeOwnedStates.cpp">
+      <Filter>__minorlife_Homework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_Command.cpp">
+      <Filter>__minorlife_Homework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_BFS.cpp">
+      <Filter>__minorlife_Homework\__pathfind</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_SetCommand.cpp">
+      <Filter>__minorlife_Homework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_Definitions.cpp">
+      <Filter>__minorlife_Homework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_RobOwnedStates.cpp">
+      <Filter>__minorlife_Homework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_Rob.cpp">
+      <Filter>__minorlife_Homework\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
